@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp04</title>
+</head>
+<body>
+   <h1>Trabajo Practico Nº04.</h1>
+   <H2>1-Cuál es la etiqueta principal utilizada para crear una tabla en HTML?</H2> 
+   <p>Las tablas HTML se crean usando las etiquetas table.</p>
+   <h2>¿Qué etiqueta se utiliza para definir una fila en una tabla?</h2>
+   <p>Table Row (tr). Etiqueta contenedora de cada fila de la tabla.</p>
+   <h2>¿Cuál es la etiqueta utilizada para crear una celda de encabezado en una tabla?</h2>
+   <p>Table Header (th). Cada una de las celdas de cabecera de la tabla.</p>
+   <h2>¿Cuál es la etiqueta utilizada para crear una celda de datos en una tabla?</h2>
+   <p>Se utiliza td, para crear celdas de datos. </p>
+   <h2>¿Qué atributo se utiliza para especificar cuántas columnas debe abarcar una celda?</h2>
+   <p> colspan="x" extiende una celda dos columnas más allá.</p>
+   <h2>¿Qué atributo se utiliza para especificar cuántas filas debe abarcar una celda?</h2> 
+   <p>Rowspan. Será el atributo son los intervalos de fila, hacen que la celda se extienda hacia abajo en varias filas</p>
+   <h2>Si necesitamos crear una tabla con 10 filas ¿qué etiqueta y cuántas veces se debe utilizar para definir las filas?</h2>
+   <p>Se usa la etiqueta tr 10 veces, cada una de estas representará una fila dentro de la tabla.</p>
+   <h2>Practica:</h2>
+   <p>TABLA 1:Realizar una tabla que contenga 5 flores y por cada uno de ellos se debe visualizar: nombre, locación, tipo, imagen.</p> 
+    <p>TABLA 2: Realizar una tabla de seis pilotos según la estructura definida en: <a href="https://www.espn.com.ar/deporte-motor/f1/posiciones">link</a></p>
+
+    <h2>Tabla de flores</h2>
+    <table>
+        <tr>
+            <th>|Nombre|</th>
+            <th>|Locación|</th>
+            <th>|Tipo|</th>
+            <th>|Imagen|</th>
+        </tr>
+        <tr>
+            <td><em>|Rosa|</em></td>
+            <td>|Jardines, Parques|</td>
+            <td>|Florperenne|</td>
+            <td><img src="Rosa.jpg" alt="Rosa" width="100mpx"></td>
+        </tr>
+        <tr>
+            <td><em>|Tulipán|</em></td>
+            <td>|Europa,Asia|</td>
+            <td>|Bulbosa|</td>
+            <td><img src="Tulipan.jpg" alt="Tulipán" width="100mpx"></td>
+        </tr>
+        <tr>
+            <td><em>|Girasol|</em></td>
+            <td>|América del Norte y del Sur|</td>
+    
+            <td>|Anual|</td>
+            <td><img src="girasol.webp" alt="Girasol" width="100mpx"></td>
+        </tr>
+        <tr>
+            <td><em>|Orquídea|</em></td>
+            <td>|Regiones tropicales|</td>
+            <td>|Epífita o Terrestre|</td>
+            <td><img src="Orquidea.jpeg" alt="Orquídea" width="100mpx"></td>
+        </tr>
+        <tr>
+            <td><em>|Lirio de los valles|</em></td>
+            <td>|Europa, Asia, Norteamérica|</td>
+            <td>|Bulbosa|</td>
+            <td><img src="Lirio de los valles.jpg" alt="Lirio de los valles" width="100mpx"></td>
+        </tr>
+    </table>
+
+<h2>Campeonato de Pilotos F1 2024</h2>
+
+<table>
+    <tr>
+        <th>Pos.</th>
+        <th>Piloto</th>
+        <th>PTS</th>
+        <th>BRN</th>
+        <th>SAU</th>
+        <th>AUS</th>
+        <th>JPN</th>
+        <th>CHN</th>
+        <th>MIA</th>
+        <th>ITA</th>
+        <th>MON</th>
+        <th>CAN</th>
+        <th>ESP</th>
+        <th>AUT</th>
+        <th>GBR</th>
+        <th>HUN</th>
+        <th>BEL</th>
+        <th>NED</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Max Verstappen</td>
+        <td>277</td>
+        <td>26</td>
+        <td>25</td>
+        <td>-</td>
+        <td>26</td>
+        <td>25</td>
+        <td>8</td>
+        <td>25</td>
+        <td>25</td>
+        <td>18</td>
+        <td>18</td>
+        <td>10</td>
+        <td>12</td>
+        <td> </td>
+
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Lando Norris</td>
+        <td>199</td>
+        <td>8</td>
+        <td>4</td>
+        <td>15</td>
+        <td>10</td>
+        <td>21</td>
+        <td>25</td>
+        <td>18</td>
+        <td>12</td>
+        <td>18</td>
+        <td>19</td>
+        <td>6</td>
+        <td>15</td>
+        <td>18</td>
+        <td>10</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Charles Leclerc</td>
+        <td>177</td>
+        <td>12</td>
+        <td>16</td>
+        <td>19</td>
+        <td>12</td>
+        <td>17</td>
+        <td>22</td>
+        <td>15</td>
+        <td>25</td>
+        <td>-</td>
+        <td>10</td>
+        <td>2</td>
+        <td>-</td>
+        <td>12</td>
+        <td>15</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Oscar Piastri</td>
+        <td>167</td>
+        <td>4</td>
+        <td>12</td>
+        <td>12</td>
+        <td>4</td>
+        <td>6</td>
+        <td>3</td>
+        <td>12</td>
+        <td>18</td>
+        <td>10</td>
+        <td>6</td>
+        <td>25</td>
+        <td>12</td>
+        <td>25</td>
+        <td>18</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Carlos Sainz</td>
+        <td>162</td>
+        <td>15</td>
+        <td>-</td>
+        <td>25</td>
+        <td>15</td>
+        <td>14</td>
+        <td>14</td>
+        <td>10</td>
+        <td>15</td>
+        <td>-</td>
+        <td>8</td>
+        <td>19</td>
+        <td>11</td>
+        <td>8</td>
+        <td>8</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Lewis Hamilton</td>
+        <td>150</td>
+        <td>6</td>
+        <td>2</td>
+        <td>-</td>
+        <td>2</td>
+        <td>9</td>
+        <td>8</td>
+        <td>8</td>
+        <td>7</td>
+        <td>13</td>
+        <td>15</td>
+        <td>15</td>
+        <td>25</td>
+        <td>15</td>
+        <td>25</td>
+        <td> </td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+
+</body>
+</html>
